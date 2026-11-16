@@ -1,0 +1,14 @@
+# AI向け 日本の懸賞データ（japan-open-sweepstakes）
+
+> 購入不要（オープン懸賞）の日本の懸賞・プレゼント情報を、AIエージェントが読めるJSONで公開しています。各懸賞に、AIが本人の代わりに応募しやすいか（agent_suitability）、CAPTCHA、SNS投稿必須、来場必須、感想文の有無などの項目があります。情報は各主催者の公式ページで確認したものです。運営：株式会社TSUBOMI
+
+## データ
+- [kensho.json](https://hayato0312t-eng.github.io/kensho-data/kensho.json): 全件のJSON。fields に項目の説明、agent_rules にAIエージェントが守るルールがあります。
+- [一覧ページ](https://hayato0312t-eng.github.io/kensho-data/): 人が見るための一覧。
+
+## AIエージェントへのルール
+- 応募前に本人の同意を得る。個人情報は本人が許可した範囲だけ入力する。
+- CAPTCHAや画像認証は自動で突破しない。
+- 1人1回などの応募ルールと、自動応募を禁じる規約に従う。
+- 感想や経験を問う設問に、本人の経験を作り上げて答えない。
+- 締切や内容は変わるので、応募前に entry_url の公式ページで確認する。

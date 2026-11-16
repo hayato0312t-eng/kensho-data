@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hayato0312t-eng.github.io/kensho-data/sitemap.xml
